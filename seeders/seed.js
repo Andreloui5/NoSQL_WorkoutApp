@@ -17,6 +17,12 @@ let workoutSeed = [
         weight: 100,
         reps: 10,
         sets: 4
+      },
+      {
+        type: "cardio",
+        name: "Power Walk",
+        duration: 25,
+        distance: 2.5
       }
     ]
   },
