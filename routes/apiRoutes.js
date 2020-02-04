@@ -63,15 +63,15 @@ module.exports = function (app) {
           }
         }
 
-      }
+      })
       .then(results => {
         res.json(results);
         console.log(results);
       })
       .catch(err => {
         res.json(err);
-      });
-  })
+      })
+  });
 
   // Get request for last 7 workouts
   app.get("/api/workouts/range", (req, res) => {

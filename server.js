@@ -2,7 +2,7 @@ const express = require("express");
 const logger = require("morgan");
 const mongoose = require("mongoose");
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.MONGODB_URI || 3000;
 
 // declares variable 'app' for use
 const app = express();
